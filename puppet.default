@@ -1,0 +1,8 @@
+# Start puppet on boot? 
+START=yes 
+
+# The puppetmaster
+PUPPET_SERVER=puppetmaster.local
+
+# Startup options 
+DAEMON_OPTS="-w 120" 
